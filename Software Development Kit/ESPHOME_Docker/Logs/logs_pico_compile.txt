@@ -1,0 +1,280 @@
+INFO ESPHome 2024.4.0
+INFO Reading configuration /config/pico.yaml...
+INFO Generating C++ source...
+INFO Compiling app...
+Processing pico (board: pico32; framework: arduino; platform: platformio/espressif32@5.4.0)
+--------------------------------------------------------------------------------
+Library Manager: Installing esphome/noise-c @ 0.1.4
+INFO Installing esphome/noise-c @ 0.1.4
+Unpacking  [####################################]  100%
+Library Manager: noise-c@0.1.4 has been installed!
+INFO noise-c@0.1.4 has been installed!
+Library Manager: Resolving dependencies...
+INFO Resolving dependencies...
+Library Manager: Installing esphome/libsodium @ 1.10018.1
+INFO Installing esphome/libsodium @ 1.10018.1
+Unpacking  [####################################]  100%
+Library Manager: libsodium@1.10018.1 has been installed!
+INFO libsodium@1.10018.1 has been installed!
+Library Manager: Installing wjtje/qr-code-generator-library @ ^1.7.0
+INFO Installing wjtje/qr-code-generator-library @ ^1.7.0
+Unpacking  [####################################]  100%
+Library Manager: qr-code-generator-library@1.7.0 has been installed!
+INFO qr-code-generator-library@1.7.0 has been installed!
+HARDWARE: ESP32 240MHz, 320KB RAM, 4MB Flash
+ - toolchain-xtensa-esp32 @ 8.4.0+2021r2-patch5
+Dependency Graph
+|-- WiFi @ 2.0.0
+|-- ESPmDNS @ 2.0.0
+|-- Update @ 2.0.0
+|-- noise-c @ 0.1.4
+|-- Wire @ 2.0.0
+|-- qr-code-generator-library @ 1.7.0
+Compiling .pioenvs/pico/src/esphome/components/api/api_connection.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/api_frame_helper.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/api_pb2.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/api_pb2_service.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/api_server.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/list_entities.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/proto.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/subscribe_state.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/api/user_services.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/bh1750/bh1750.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/binary_sensor/automation.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/binary_sensor/binary_sensor.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/binary_sensor/filter.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/button/button.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/dht/dht.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/display/display.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/display/display_buffer.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/display/rect.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/esp32/core.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/esp32/gpio.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/esp32/preferences.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/esp32_dac/esp32_dac.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/font/font.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/gpio/output/gpio_binary_output.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/homeassistant/time/homeassistant_time.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/i2c/i2c.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/i2c/i2c_bus_arduino.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/i2c/i2c_bus_esp_idf.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/image/image.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ledc/ledc_output.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/addressable_light.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/automation.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/esp_color_correction.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/esp_hsv_color.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/esp_range_view.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/light_call.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/light_json_schema.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/light_output.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/light/light_state.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/logger/logger.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/logger/logger_esp32.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/logger/logger_esp8266.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/logger/logger_host.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/logger/logger_libretiny.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/logger/logger_rp2040.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/md5/md5.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/mdns/mdns_component.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/mdns/mdns_esp32.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/mdns/mdns_esp8266.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/mdns/mdns_host.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/mdns/mdns_libretiny.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/mdns/mdns_rp2040.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/network/util.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/automation.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/nci_message.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/ndef_message.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/ndef_record.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/ndef_record_text.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/ndef_record_uri.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/nfc.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/nfc_helpers.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/nfc/nfc_tag.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ota/ota_backend_arduino_esp32.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ota/ota_backend_arduino_esp8266.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ota/ota_backend_arduino_libretiny.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ota/ota_backend_arduino_rp2040.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ota/ota_backend_esp_idf.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ota/ota_component.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/output/automation.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/output/float_output.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/pn532/pn532.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/pn532/pn532_mifare_classic.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/pn532/pn532_mifare_ultralight.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/pn532_i2c/pn532_i2c.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/qr_code/qr_code.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/restart/button/restart_button.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/sensor/automation.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/sensor/filter.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/sensor/sensor.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/shutdown/button/shutdown_button.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/sntp/sntp_component.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/socket/bsd_sockets_impl.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/socket/lwip_raw_tcp_impl.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/socket/lwip_sockets_impl.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/socket/socket.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ssd1306_base/ssd1306_base.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/ssd1306_i2c/ssd1306_i2c.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/time/automation.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/time/real_time_clock.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/wifi/wifi_component.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/wifi/wifi_component_esp32_arduino.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/wifi/wifi_component_esp8266.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/wifi/wifi_component_esp_idf.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/wifi/wifi_component_libretiny.cpp.o
+Compiling .pioenvs/pico/src/esphome/components/wifi/wifi_component_pico_w.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/application.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/color.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/component.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/component_iterator.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/controller.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/entity_base.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/helpers.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/log.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/ring_buffer.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/scheduler.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/string_ref.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/time.cpp.o
+Compiling .pioenvs/pico/src/esphome/core/util.cpp.o
+Compiling .pioenvs/pico/src/main.cpp.o
+Building .pioenvs/pico/bootloader.bin
+Creating esp32 image...
+Successfully created esp32 image.
+Generating partitions .pioenvs/pico/partitions.bin
+Compiling .pioenvs/pico/lib18f/WiFi/WiFi.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiAP.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiClient.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiGeneric.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiMulti.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiSTA.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiScan.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiServer.cpp.o
+Compiling .pioenvs/pico/lib18f/WiFi/WiFiUdp.cpp.o
+Compiling .pioenvs/pico/lib3c3/ESPmDNS/ESPmDNS.cpp.o
+Archiving .pioenvs/pico/lib18f/libWiFi.a
+Compiling .pioenvs/pico/libb83/Update/HttpsOTAUpdate.cpp.o
+Compiling .pioenvs/pico/libb83/Update/Updater.cpp.o
+Archiving .pioenvs/pico/lib3c3/libESPmDNS.a
+Compiling .pioenvs/pico/libdff/libsodium/crypto_aead/chacha20poly1305/sodium/aead_chacha20poly1305.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_core/ed25519/core_ed25519.c.o
+Archiving .pioenvs/pico/libb83/libUpdate.a
+Compiling .pioenvs/pico/libdff/libsodium/crypto_core/ed25519/core_ristretto255.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_core/ed25519/ref10/ed25519_ref10.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_hash/crypto_hash.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_hash/sha256/cp/hash_sha256_cp.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_hash/sha256/hash_sha256.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_onetimeauth/crypto_onetimeauth.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_onetimeauth/poly1305/donna/poly1305_donna.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_onetimeauth/poly1305/onetimeauth_poly1305.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_scalarmult/crypto_scalarmult.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_scalarmult/curve25519/ref10/x25519_ref10.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_scalarmult/curve25519/scalarmult_curve25519.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_stream/chacha20/ref/chacha20_ref.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_stream/chacha20/stream_chacha20.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_stream/crypto_stream.c.o
+Compiling .pioenvs/pico/libdff/libsodium/crypto_verify/sodium/verify.c.o
+Compiling .pioenvs/pico/libdff/libsodium/sodium/codecs.c.o
+Compiling .pioenvs/pico/libdff/libsodium/sodium/core.c.o
+Compiling .pioenvs/pico/libdff/libsodium/sodium/runtime.c.o
+Compiling .pioenvs/pico/libdff/libsodium/sodium/utils.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/openssl/cipher-aesgcm.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/ref/cipher-aesgcm.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/ref/cipher-chachapoly.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/ref/dh-curve25519.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/ref/hash-blake2b.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/ref/hash-blake2s.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/ref/hash-sha256.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/sodium/cipher-aesgcm.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/sodium/cipher-chachapoly.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/sodium/dh-curve25519.c.o
+Archiving .pioenvs/pico/libdff/libsodium.a
+Compiling .pioenvs/pico/lib2da/noise-c/backend/sodium/hash-blake2b.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/backend/sodium/hash-sha256.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/aes/rijndael-alg-fst.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/blake2/blake2b.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/blake2/blake2s.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/chacha/chacha.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/donna/curve25519-donna-c64.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/donna/curve25519-donna.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/donna/poly1305-donna.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/sha2/sha256.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/sha2/sha512.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/crypto/x25519/x25519.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/cipherstate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/dhstate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/errors.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/handshakestate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/hashstate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/internal.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/names.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/patterns.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/rand_os.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/rand_sodium.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/randstate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/signstate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/symmetricstate.c.o
+Compiling .pioenvs/pico/lib2da/noise-c/protocol/util.c.o
+Compiling .pioenvs/pico/libc35/Wire/Wire.cpp.o
+Archiving .pioenvs/pico/lib2da/libnoise-c.a
+Compiling .pioenvs/pico/lib912/qr-code-generator-library/qrcodegen.c.o
+Archiving .pioenvs/pico/lib912/libqr-code-generator-library.a
+Compiling .pioenvs/pico/FrameworkArduino/Esp.cpp.o
+Archiving .pioenvs/pico/libc35/libWire.a
+Compiling .pioenvs/pico/FrameworkArduino/FirmwareMSC.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/FunctionalInterrupt.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/HWCDC.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/HardwareSerial.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/IPAddress.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/IPv6Address.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/MD5Builder.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/Print.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/Stream.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/StreamString.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/Tone.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/USB.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/USBCDC.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/USBMSC.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/WMath.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/WString.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/base64.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/cbuf.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-adc.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-bt.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-cpu.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-dac.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-gpio.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-i2c-slave.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-i2c.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-ledc.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-matrix.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-misc.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-psram.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-rgb-led.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-rmt.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-sigmadelta.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-spi.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-time.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-timer.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-tinyusb.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-touch.c.o
+Compiling .pioenvs/pico/FrameworkArduino/esp32-hal-uart.c.o
+Compiling .pioenvs/pico/FrameworkArduino/firmware_msc_fat.c.o
+Compiling .pioenvs/pico/FrameworkArduino/libb64/cdecode.c.o
+Compiling .pioenvs/pico/FrameworkArduino/libb64/cencode.c.o
+Compiling .pioenvs/pico/FrameworkArduino/main.cpp.o
+Compiling .pioenvs/pico/FrameworkArduino/stdlib_noniso.c.o
+Compiling .pioenvs/pico/FrameworkArduino/wiring_pulse.c.o
+Compiling .pioenvs/pico/FrameworkArduino/wiring_shift.c.o
+Archiving .pioenvs/pico/libFrameworkArduino.a
+Linking .pioenvs/pico/firmware.elf
+RAM:   [=         ]  12.9% (used 42220 bytes from 327680 bytes)
+Flash: [=====     ]  54.4% (used 997633 bytes from 1835008 bytes)
+Building .pioenvs/pico/firmware.bin
+Creating esp32 image...
+Successfully created esp32 image.
+esp32_create_combined_bin([".pioenvs/pico/firmware.bin"], [".pioenvs/pico/firmware.elf"])
+Wrote 0x105000 bytes to file /config/.esphome/build/pico/.pioenvs/pico/firmware-factory.bin, ready to flash to offset 0x0
+========================= [SUCCESS] Took 87.67 seconds =========================
+INFO Successfully compiled program.
